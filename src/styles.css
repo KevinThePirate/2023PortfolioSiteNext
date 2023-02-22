@@ -638,3 +638,9 @@ li button {
 ::-webkit-scrollbar-thumb:hover {
   background: #35495e;
 }
+#section-2,
+#section-3,
+#section-4,
+#section-5 {
+  height: 100vh;
+}
