@@ -36,7 +36,7 @@ class FullpageWrapper extends React.Component {
     console.log("After load: " + destination.index);
   }
 
-  buttonGen() {
+  buttonGen(api) {
     let table = [];
     for (let i = 0; i < topics.length; i++) {
       table.push(
@@ -52,8 +52,11 @@ class FullpageWrapper extends React.Component {
           whileTap={{ scale: 0.9 }}
           viewport={{ once: true }}
           onClick={() => {
-            testVar = i;
-            this.api.moveTo(4, i);
+            console.log("test");
+            api.moveTo(4);
+            api.moveTo(4, i);
+            console.log(api.getActiveSection().slides);
+            //this.api.moveSlideRight();
           }}></motion.button>
       );
     }
@@ -69,7 +72,11 @@ class FullpageWrapper extends React.Component {
     for (let i = 0; i < topics.length; i++) {
       table.push(
         <div className="slide">
-          <PortfolioSection id="portfolio-sect" activePort={i} />
+          <PortfolioSection
+            id="portfolio-sect"
+            activePort={i}
+            key={"port-" + i}
+          />
         </div>
       );
     }
@@ -88,7 +95,7 @@ class FullpageWrapper extends React.Component {
         render={({ state, fullpageApi }) => {
           this.api = fullpageApi;
           return (
-            <div id="fullpage-wrapper">
+            <div id="fullpage">
               <link
                 rel="stylesheet"
                 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -100,7 +107,7 @@ class FullpageWrapper extends React.Component {
                 <AboutSection api={this.api} buttonGen={this.buttonGen} />
               </div>
               <div className="section" id="section-4">
-                {this.buttonGen()}
+                {this.buttonGen(fullpageApi)}
               </div>
               <div className="section" id="section-3">
                 {this.portGen()}
