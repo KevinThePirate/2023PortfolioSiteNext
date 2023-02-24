@@ -14,7 +14,7 @@ export default function App() {
               key={item.label}
               className={item === selectedTab ? "selected" : ""}
               onClick={() => setSelectedTab(item)}>
-              {`${item.icon} ${item.label}`}
+              {`${item.label}`}
               {item === selectedTab ? (
                 <motion.div className="underline" layoutId="underline" />
               ) : null}
@@ -30,7 +30,17 @@ export default function App() {
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: -10, opacity: 0 }}
             transition={{ duration: 0.2 }}>
-            {selectedTab ? selectedTab.icon : "😋"}
+            {selectedTab ? (
+              <div>
+                <h4>{selectedTab.label}</h4>
+                <p>
+                  <b>{selectedTab.timeline}</b>
+                </p>
+                <p>{selectedTab.desc}</p>
+              </div>
+            ) : (
+              "😋"
+            )}
           </motion.div>
         </AnimatePresence>
       </main>
