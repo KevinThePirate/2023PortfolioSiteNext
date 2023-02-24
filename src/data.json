@@ -13,36 +13,37 @@
     ],
     "projects": [
       {
-        "key": "MM",
-        "title": "Maths Masters",
-        "desc": "Maths Master was an educational maths game developed in vanilla JS based on the popular Pokemon franchise. It has four levels, a high-score system, and multiple player options.",
+        "key": "TP",
+        "title": "Tropical Punch",
+        "desc": "It's a story as old as time. A boy and his dog. A boy and his dog go on a martial-arts road trip so the boy can fight his way back into an ancient clan of warriors. It's all boring, everyday affairs, really. Did I mention the dog was also the boy's chainsmoking teacher? Great stuff",
+        "para2": "Tropical Punch is was a 3-issue action/comedy series I wrote and was drawn by Ryan Ibbotson. It is sold in comic shops around Ireland, online through Gumroad and at conventions. The 3 issues of the series were released between June and October of 2022. On release, each of the 3 issues sold out and built a local fanbase in Cork City cause it to be re-printed for sale in late 2022",
         "github": "https://github.com/KevinThePirate/MathsMasters",
         "view": "https://kevinthepirate.github.io/MathsMasters/",
-        "imgSrc": "https://public-files.gumroad.com/mpunk2unqrvsj5qnjbfmt7xxv8lc"
+        "imgSrc": "https://i.imgur.com/jqkK84W.jpg"
       },
       {
-        "key": "RWA",
-        "title": "React Weather App",
+        "key": "DD",
+        "title": "Marco The Demon Dude",
         "desc": "Colour changing weather app used to get to grips with the idea of API calls and CSS variables within React",
         "github": "https://github.com/KevinThePirate/React-Weather-App",
         "view": "https://kevinthepirate.github.io/React-Weather-App/",
-        "imgSrc": "https://cdn.wallpapersafari.com/15/4/b7xQKh.jpg"
+        "imgSrc": "https://i.imgur.com/CnJrQu5.png"
       },
       {
-        "key": "RGG",
-        "title": "React Guessing Game",
+        "key": "TGNP",
+        "title": "Cork Teen Graphic Novel Project",
         "desc": "Simple guessing game made in React. The object of the game is to pick a card and try to find it once it has been reshuffled",
         "view": "https://github.com/KevinThePirate/React-Guessing-Game",
         "github": "https://github.com/KevinThePirate/React-Guessing-Game",
-        "imgSrc": "https://pbs.twimg.com/media/FmL6eMmWYAENPo2?format=jpg&name=small"
+        "imgSrc": "https://i.imgur.com/lYJvlnc.png"
       },
       {
-        "key": "RTDA",
-        "title": "React To-Do App",
-        "desc": "I used this project to teach myself the fundamentals of React.JS, including components, state, routing, etc. Note: the viewable version does not allow for viewing cards due to GitHub Permissions",
+        "key": "SATAM",
+        "title": "Saturday AM & Fan Art Fridays",
+        "desc": "Started as a European Marketing intern and worked my way onto the editing team, helping to manage teams of creatives producing comic books for an international audience of hundreds of thousands. More info in Comic Portfolio.",
         "view": "https://github.com/KevinThePirate/React-To-Do-App",
         "github": "https://kevinthepirate.github.io/React-To-Do-App/",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Aspect-ratio-16x9.svg/1200px-Aspect-ratio-16x9.svg.png"
+        "imgSrc": "https://i.imgur.com/maonBDR.png"
       }
     ]
   },
@@ -65,7 +66,7 @@
         "desc": "Maths Master was an educational maths game developed in vanilla JS based on the popular Pokemon franchise. It has four levels, a high-score system, and multiple player options.",
         "github": "https://github.com/KevinThePirate/MathsMasters",
         "view": "https://kevinthepirate.github.io/MathsMasters/",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/16x9_by_Pengo.svg/800px-16x9_by_Pengo.svg.png"
+        "imgSrc": "https://i.imgur.com/rgT0bTf.png"
       },
       {
         "key": "RWA",
@@ -73,7 +74,7 @@
         "desc": "Colour changing weather app used to get to grips with the idea of API calls and CSS variables within React",
         "github": "https://github.com/KevinThePirate/React-Weather-App",
         "view": "https://kevinthepirate.github.io/React-Weather-App/",
-        "imgSrc": "https://cdn.wallpapersafari.com/15/4/b7xQKh.jpg"
+        "imgSrc": "https://i.imgur.com/CG1fFqd.png"
       },
       {
         "key": "RGG",
@@ -81,7 +82,7 @@
         "desc": "Simple guessing game made in React. The object of the game is to pick a card and try to find it once it has been reshuffled",
         "view": "https://github.com/KevinThePirate/React-Guessing-Game",
         "github": "https://github.com/KevinThePirate/React-Guessing-Game",
-        "imgSrc": "https://wallpapercave.com/wp/wp2860302.jpg"
+        "imgSrc": "https://i.imgur.com/rdNyKfg.png"
       },
       {
         "key": "RTDA",
@@ -89,7 +90,7 @@
         "desc": "I used this project to teach myself the fundamentals of React.JS, including components, state, routing, etc. Note: the viewable version does not allow for viewing cards due to GitHub Permissions",
         "view": "https://github.com/KevinThePirate/React-To-Do-App",
         "github": "https://kevinthepirate.github.io/React-To-Do-App/",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Aspect-ratio-16x9.svg/1200px-Aspect-ratio-16x9.svg.png"
+        "imgSrc": "https://i.imgur.com/8JPpu9N.png"
       }
     ]
   },
@@ -112,7 +113,7 @@
         "desc": "Maths Master was an educational maths game developed in vanilla JS based on the popular Pokemon franchise. It has four levels, a high-score system, and multiple player options.",
         "github": "https://github.com/KevinThePirate/MathsMasters",
         "view": "https://kevinthepirate.github.io/MathsMasters/",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/16x9_by_Pengo.svg/800px-16x9_by_Pengo.svg.png"
+        "imgSrc": "https://i.imgur.com/9NeLiJQ.png"
       },
       {
         "key": "RWA",
@@ -120,7 +121,7 @@
         "desc": "Colour changing weather app used to get to grips with the idea of API calls and CSS variables within React",
         "github": "https://github.com/KevinThePirate/React-Weather-App",
         "view": "https://kevinthepirate.github.io/React-Weather-App/",
-        "imgSrc": "https://cdn.wallpapersafari.com/15/4/b7xQKh.jpg"
+        "imgSrc": "https://i.imgur.com/eAfZAWV.png"
       },
       {
         "key": "RGG",
@@ -128,7 +129,7 @@
         "desc": "Simple guessing game made in React. The object of the game is to pick a card and try to find it once it has been reshuffled",
         "view": "https://github.com/KevinThePirate/React-Guessing-Game",
         "github": "https://github.com/KevinThePirate/React-Guessing-Game",
-        "imgSrc": "https://wallpapercave.com/wp/wp2860302.jpg"
+        "imgSrc": "https://i.imgur.com/jnRe3bp.png"
       },
       {
         "key": "RTDA",
@@ -136,7 +137,7 @@
         "desc": "I used this project to teach myself the fundamentals of React.JS, including components, state, routing, etc. Note: the viewable version does not allow for viewing cards due to GitHub Permissions",
         "view": "https://github.com/KevinThePirate/React-To-Do-App",
         "github": "https://kevinthepirate.github.io/React-To-Do-App/",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Aspect-ratio-16x9.svg/1200px-Aspect-ratio-16x9.svg.png"
+        "imgSrc": "https://i.imgur.com/4T6zdjZ.png"
       }
     ]
   },

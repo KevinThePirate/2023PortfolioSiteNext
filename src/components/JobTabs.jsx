@@ -36,7 +36,7 @@ export default function App() {
                 <p>
                   <b>{selectedTab.timeline}</b>
                 </p>
-                <p>{selectedTab.desc}</p>
+                <p className="job-description">{selectedTab.desc}</p>
               </div>
             ) : (
               "😋"

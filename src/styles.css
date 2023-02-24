@@ -287,7 +287,6 @@ img {
   border-radius: 1.5rem;
 }
 .compact img {
-  transform: translateY(-40%);
 }
 .expanded .title {
   font-size: 5em;
@@ -364,10 +363,14 @@ img {
 }
 #job-tabs nav {
   overflow: hidden;
+  height: fit-content;
 }
 #job-title {
   display: block;
   clear: both;
+}
+.job-description {
+  max-height: 50%;
 }
 /* Style the tab */
 .tab {

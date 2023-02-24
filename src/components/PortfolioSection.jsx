@@ -4,7 +4,7 @@ import projData from "../data.json";
 
 const variants = {
   closed: { marginTop: 0 },
-  open: { marginTop: "-20%" },
+  open: { marginTop: "-15%" },
 };
 
 function Content({ active, disabled, imgSrc }) {
@@ -108,6 +108,7 @@ function DateButton({
               className="proj-info">
               <h2>{proj.title}</h2>
               <p>{proj.desc}</p>
+              <p>{proj.para2}</p>
               <a href={proj.view}>View</a> / <a href={proj.github}>Github</a>
             </motion.div>
           </ExpandedCard>
