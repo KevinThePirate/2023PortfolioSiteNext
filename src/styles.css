@@ -37,6 +37,10 @@ h3 {
   z-index: 30;
   position: absolute;
   bottom: 20vh;
+  max-width: 80vw;
+}
+#title-area h1 {
+  font-size: 5vw;
 }
 #image-grid {
   z-index: 0;
@@ -89,7 +93,7 @@ i:hover {
 }
 #section-2 .fp-overflow {
   width: 95%;
-  height: 80vh;
+  height: auto;
   margin: auto;
   display: grid;
   grid-template-rows: 1fr;
@@ -179,7 +183,7 @@ table td {
   padding: 1rem;
   border: 1px solid #777;
   border-radius: 0.5rem;
-  box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.5);
   padding: 0;
 }
 .card-container p {
@@ -235,7 +239,7 @@ img {
 .card {
   overflow: hidden;
   box-shadow: 0 0 10px -2px rgba(0, 0, 0, 0.2);
-  padding: 2rem;
+  padding: 5rem;
   border-radius: 1rem;
   box-sizing: border-box;
   cursor: pointer;
@@ -250,10 +254,13 @@ img {
   top: 10%;
   opacity: 1;
   z-index: 100;
+  border: 5px solid red;
 }
 
 .expanded .image-container {
   overflow: hidden;
+  border: none;
+  max-height: 50%;
 }
 .expanded a {
   color: #f69f1f;
@@ -261,7 +268,7 @@ img {
 .proj-info {
   background-color: none !important;
   box-shadow: none !important;
-  padding: 10px !important;
+  padding: 0 30px !important;
   border: none !important;
 }
 
@@ -435,7 +442,7 @@ img {
   font-weight: 500;
 }
 #link-area {
-  height: 80%;
+  height: auto;
   width: 70%;
   padding-left: 5%;
 }
@@ -712,5 +719,14 @@ li button {
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
+  }
+  .expanded .image-container img {
+    height: 45vh;
+  }
+  #footer-card h2 {
+    font-size: 10vw;
+  }
+  #title-area h1 {
+    font-size: 15vw;
   }
 }

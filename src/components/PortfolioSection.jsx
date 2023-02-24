@@ -92,7 +92,7 @@ function DateButton({
             <motion.div
               className="image-container"
               initial={{ height: "100%" }}
-              animate={{ height: "50%" }}
+              animate={{ height: "40%" }}
               transition={{ duration: 1 }}>
               <MotionContent
                 day={day}
