@@ -23,6 +23,7 @@ h3 {
   background-image: url(../images/bg1.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #d8cec8;
 }
 .fp-section h1 {
   font-size: 5rem;

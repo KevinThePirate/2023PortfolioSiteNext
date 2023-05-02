@@ -11,6 +11,17 @@ import img5 from "../images/Rectangle5.png";
 
 const imageArr = [img1, img2, img3, img4, img5];
 export default class TitleSection extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { imageLoaded: false, imagesLoaded: 0 };
+    this.handleLoad = this.handleLoad.bind(this);
+  }
+  handleLoad = () => {
+    this.setState((prevState) => {
+      return { imagesLoaded: prevState.imagesLoaded + 1 };
+    });
+    console.log(this.state.imagesLoaded);
+  };
   render() {
     return (
       <div>
@@ -25,16 +36,25 @@ export default class TitleSection extends Component {
               src={image}
               id={"grid-image-" + index}
               initial={{ opacity: 0, y: 50 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              animate={
+                this.state.imagesLoaded >= imageArr.length
+                  ? { opacity: 1, y: 0 }
+                  : { opacity: 0, y: 50 }
+              }
               viewport={{ once: true }}
               transition={{ delay: index * 0.5 + 0.5, duration: 0.3 }}
+              onLoad={this.handleLoad}
             />
           ))}
         </motion.div>
         <motion.div
           id="title-area"
           initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
+          animate={
+            this.state.imagesLoaded >= imageArr.length
+              ? { opacity: 1, y: 0 }
+              : { opacity: 0, y: 50 }
+          }
           transition={{ delay: 3.25, duration: 0.5 }}>
           <h1>Kevin M. Smith</h1>
           <h4>Web Dev, Design and Video & Comic Production</h4>

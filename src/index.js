@@ -89,7 +89,7 @@ class FullpageWrapper extends React.Component {
   render() {
     return (
       <ReactFullpage
-        sectionsColor={["#516091", "#81B1D5", "#A0D2E7", "#26408B"]}
+        sectionsColor={["#d8cec8", "#d8cec8", "#d8cec8", "#d8cec8"]}
         onLeave={this.onLeave.bind(this)}
         afterLoad={this.afterLoad.bind(this)}
         render={({ state, fullpageApi }) => {
