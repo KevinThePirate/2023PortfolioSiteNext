@@ -255,7 +255,6 @@ img {
   top: 10%;
   opacity: 1;
   z-index: 100;
-  border: 5px solid red;
 }
 
 .expanded .image-container {
@@ -616,7 +615,14 @@ li button {
 #section-5 {
   height: 100vh;
 }
-@media screen and (max-width: 767px) {
+.close-button {
+  position: absolute;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  color: white;
+}
+@media screen and (max-aspect-ratio: 1/1) {
   #two-one,
   #two-two {
     width: 100%;
@@ -749,5 +755,13 @@ li button {
   }
   #job-tabs main p {
     font-size: 0.75rem;
+  }
+  .proj-info {
+    font-size: 0.9rem;
+  }
+  .expanded {
+    top: 5vh;
+    height: 90vh;
+    overflow: scroll !important;
   }
 }

@@ -76,6 +76,7 @@ class FullpageWrapper extends React.Component {
             id="portfolio-sect"
             activePort={i}
             key={"port-" + i}
+            api={this.api}
           />
         </div>
       );

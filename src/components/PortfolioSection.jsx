@@ -1,6 +1,8 @@
 import React, { Component, useState } from "react";
 import { motion, AnimateSharedLayout } from "framer-motion";
 import projData from "../data.json";
+import { MdCancel } from "../../node_modules/react-icons/md";
+import ReactFullpage from "@fullpage/react-fullpage";
 
 const variants = {
   closed: { marginTop: 0 },
@@ -32,8 +34,8 @@ function ExpandedCard({ children, onCollapse, dataActive }) {
           "--lefto": dataActive,
         }}
         className="card expanded"
-        layoutId="expandable-card"
-        onClick={onCollapse}>
+        layoutId="expandable-card">
+        <MdCancel onClick={onCollapse} className="close-button" />
         {children}
       </motion.div>
       {/*    <motion.p
@@ -48,7 +50,7 @@ function ExpandedCard({ children, onCollapse, dataActive }) {
   );
 }
 
-function CompactCard({ children, onExpand, disabled }) {
+function CompactCard({ children, onExpand, disabled, api }, props) {
   return (
     <motion.div
       className="card compact"
@@ -78,6 +80,7 @@ function DateButton({
 
   const expandDate = () => {
     setIsExpanded(true);
+    console.log(false);
     onExpand();
   };
 
@@ -88,7 +91,8 @@ function DateButton({
           <ExpandedCard
             onCollapse={collapseDate}
             day={day}
-            dataActive={dataActive}>
+            dataActive={dataActive}
+            className="expanded-card">
             <motion.div
               className="image-container"
               initial={{ height: "100%" }}
@@ -141,9 +145,14 @@ export default function PortfolioSection(props) {
             proj={proj}
             active={expandedDay == proj.key && expandedDay !== undefined}
             disabled={expandedDay !== proj.key && expandedDay !== undefined}
-            onExpand={() => setCollapsedDay(proj.key)}
-            onCollapse={() => setCollapsedDay()}
-            style={{ background: "green" }}
+            onExpand={() => {
+              setCollapsedDay(proj.key);
+              props.api.setAllowScrolling(false);
+            }}
+            onCollapse={() => {
+              setCollapsedDay();
+              props.api.setAllowScrolling(true);
+            }}
           />
         ))}
       </div>
