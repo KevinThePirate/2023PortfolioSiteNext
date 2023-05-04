@@ -16,12 +16,14 @@ export default class TitleSection extends Component {
     this.state = { imageLoaded: false, imagesLoaded: 0 };
     this.handleLoad = this.handleLoad.bind(this);
   }
-  handleLoad = () => {
+
+  handleLoad() {
     this.setState((prevState) => {
       return { imagesLoaded: prevState.imagesLoaded + 1 };
     });
     console.log(this.state.imagesLoaded);
-  };
+  }
+
   render() {
     return (
       <div>

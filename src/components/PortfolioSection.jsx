@@ -2,7 +2,6 @@ import React, { Component, useState } from "react";
 import { motion, AnimateSharedLayout } from "framer-motion";
 import projData from "../data.json";
 import { MdCancel } from "../../node_modules/react-icons/md";
-import ReactFullpage from "@fullpage/react-fullpage";
 
 const variants = {
   closed: { marginTop: 0 },
