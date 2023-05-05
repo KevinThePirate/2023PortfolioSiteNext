@@ -764,4 +764,8 @@ li button {
     height: 90vh;
     overflow: scroll !important;
   }
+  .card-container {
+    max-width: none;
+    max-height: 25vh;
+  }
 }
