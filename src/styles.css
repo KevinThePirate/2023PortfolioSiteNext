@@ -323,6 +323,7 @@ img {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: center;
   justify-items: center;
+  overflow: hidden;
 }
 #section-4 button {
   display: inline-block;
