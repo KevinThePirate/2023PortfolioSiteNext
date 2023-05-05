@@ -106,6 +106,7 @@ i:hover {
   background-image: url(../images/bg3.png);
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: none;
 }
 #two-one,
 #two-two {
@@ -766,7 +767,7 @@ li button {
     overflow: scroll !important;
   }
   .card-container {
-    max-width: none;
+    max-width: 75%;
     max-height: 25vh;
   }
 }
