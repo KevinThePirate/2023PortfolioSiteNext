@@ -684,6 +684,7 @@ li button {
   .dates {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 90%;
   }
   #section-4 .fp-overflow {
     height: 100vh;
@@ -770,7 +771,7 @@ li button {
     overflow: scroll !important;
   }
   .card-container {
-    max-width: 60%;
+    max-width: 75%;
     max-height: 25vh;
   }
 }
