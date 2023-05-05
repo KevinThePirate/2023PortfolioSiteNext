@@ -767,7 +767,7 @@ li button {
   }
   .expanded {
     top: 5vh;
-    height: 90vh;
+    height: 80vh;
     overflow: scroll !important;
   }
   .card-container {
