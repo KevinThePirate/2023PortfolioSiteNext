@@ -2,11 +2,15 @@ import { useState } from "react";
 import { allIngredients as tabs } from "./ingredients";
 import { motion, AnimatePresence } from "framer-motion";
 
-export default function App() {
+export default function App(props) {
   const [selectedTab, setSelectedTab] = useState(tabs[0]);
 
   return (
-    <div className="window" id="job-tabs">
+    <div
+      className="window"
+      id="job-tabs"
+      onTouchStart={() => props.api.setAllowScrolling(false)}
+      onTouchEnd={() => props.api.setAllowScrolling(true)}>
       <nav>
         <ul>
           {tabs.map((item) => (

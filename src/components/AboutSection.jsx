@@ -61,7 +61,7 @@ export default class AboutSection extends Component {
         <div id="two-two">
           <div id="work-area">
             <h2 id="job-title">Where I’ve Worked</h2>
-            <JobTabs />
+            <JobTabs api={this.props.api} />
           </div>
           <div id="button-area">
             <button onClick={() => this.props.api.moveTo(3)}>
