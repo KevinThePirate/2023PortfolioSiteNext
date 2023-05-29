@@ -112,7 +112,7 @@ function DateButton({
               <h2>{proj.title}</h2>
               <p>{proj.desc}</p>
               <p>{proj.para2}</p>
-              <a href={proj.view}>View</a> / <a href={proj.github}>Github</a>
+              <a href={proj.view}>View</a>
             </motion.div>
           </ExpandedCard>
         ) : (
