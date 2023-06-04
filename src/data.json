@@ -32,15 +32,15 @@
       {
         "key": "TGNP",
         "title": "Cork Teen Graphic Novel Project",
-        "desc": "Simple guessing game made in React. The object of the game is to pick a card and try to find it once it has been reshuffled",
-        "view": "https://github.com/KevinThePirate/React-Guessing-Game",
-        "github": "https://github.com/KevinThePirate/React-Guessing-Game",
+        "desc": "The teen graphic novel project is an initiative set up by the Cork City Libraries. It offers teenagers the opportunity to begin making comic books in a professional setting with the guidance of editors and letterers. The program tasks writers and artists, pairs them up with each other and teaches them the ropes of how to produce a professional comic book that is printed and released in a public event. I participated from 2016-2018 as a writer and in 2019 and 2020 was brought on as a letterer and project co-ordinator. ",
+        "view": "https://www.corkcitylibraries.ie/en/online/read-online/teen-graphic-novel-2021.pdf",
         "imgSrc": "https://i.imgur.com/lYJvlnc.png"
       },
       {
         "key": "SATAM",
         "title": "Saturday AM & Fan Art Fridays",
-        "desc": "Started as a European Marketing intern and worked my way onto the editing team, helping to manage teams of creatives producing comic books for an international audience of hundreds of thousands. More info in Comic Portfolio.",
+        "desc": "Initially brought on to work as a talent acquisition assistant and as an editor for internationally published graphic novels and magazines, then to manage that editing team before finally transitioning into my role as the European Marketing Intern where I researched and focused on expanding the company’s outreach and brand awareness in Europe along with working with the global marketing team. As part of this initiative, I lead events and brokered partnership, namely a company appearance at Ireland’s largest Japanese culture conventions such as Akumakon and Kaizoku-Con.",
+        "para2": "Having worked well with the global team during my internship, I was brought onto the staff team to continue my work to bring our company to Europe. After showing my dedication and my ability to organise the production of such a project, I've been appointed to spearhead our newest digital magazine Fan Art Friday released and read on our app by the thousands of people who have downloaded it. Eventually, I transited from an Editor & Producer into a part-time role to ensure I could uphold the quality of my work while on placement for college.",
         "view": "https://github.com/KevinThePirate/React-To-Do-App",
         "github": "https://kevinthepirate.github.io/React-To-Do-App/",
         "imgSrc": "https://i.imgur.com/maonBDR.png"
@@ -61,35 +61,33 @@
     ],
     "projects": [
       {
-        "key": "MM",
-        "title": "Man",
-        "desc": "Maths Master was an educational maths game developed in vanilla JS based on the popular Pokemon franchise. It has four levels, a high-score system, and multiple player options.",
+        "key": "TTIF",
+        "title": "The Tiredness I Feel",
+        "desc": "In 2019, I conceptualized and produced a captivating 30-second video project titled 'The Tiredness I Feel.' This piece was a result of my creative endeavor during my time in college, where I took charge of shooting and editing the video. With a vision inspired by the neon and vaporwave aesthetics, I meticulously crafted a visually stunning experience that aimed to evoke a sense of exhaustion. Through careful composition, lighting, and post-production techniques, I immersed the viewer in a dreamlike world, rich in vibrant colors and nostalgic imagery. 'The Tiredness I Feel' served as a testament to my ability to effectively translate concepts into visually striking video content, capturing the essence of a specific mood and style. It stood as a reflection of my creativity and technical skills in videography and editing during that period. ",
         "github": "https://github.com/KevinThePirate/MathsMasters",
-        "view": "https://kevinthepirate.github.io/MathsMasters/",
+        "view": "https://youtu.be/vL7L4Cu-TWU",
         "imgSrc": "https://i.imgur.com/rgT0bTf.png"
       },
       {
-        "key": "RWA",
-        "title": "React Weather App",
-        "desc": "Colour changing weather app used to get to grips with the idea of API calls and CSS variables within React",
-        "github": "https://github.com/KevinThePirate/React-Weather-App",
-        "view": "https://kevinthepirate.github.io/React-Weather-App/",
+        "key": "WW2",
+        "title": "How The US Joined WW2 - Bill Wurtz Reanimation",
+        "desc": "I created a 30-second animation project that depicted the entry of the United States into World War II. This video was crafted to showcase the fundamental principles of animation, highlighting my proficiency in each aspect. From concept to completion, I took on the responsibility of creating and animating all the unique assets in the video.",
+        "view": "https://youtu.be/a611UqNy_6g",
         "imgSrc": "https://i.imgur.com/CG1fFqd.png"
       },
       {
-        "key": "RGG",
-        "title": "React Guessing Game",
-        "desc": "Simple guessing game made in React. The object of the game is to pick a card and try to find it once it has been reshuffled",
-        "view": "https://github.com/KevinThePirate/React-Guessing-Game",
+        "key": "HCW",
+        "title": "How Cameras Work",
+        "desc": "As part of a college assignment, I made a video to showcase the functions of DSLR and SLR cameras using only analog sources. In this visual piece, I immersed myself in a hands-on approach, capturing all the footage with my own camera and painstakingly creating hand-drawn animations on paper, which were then scanned in. By relying solely on analog techniques, I aimed to demonstrate my understanding of the fundamentals of photography and animation. This project challenged my creativity and technical skills, requiring me to think outside the box to effectively communicate the intricacies of camera functionality within a limited time frame. The resulting visual piece not only highlighted my dedication to craftsmanship but also showcased my ability to communicate complex concepts through innovative and artistic means.",
+        "view": "https://youtu.be/TfWKeEH3Cfc",
         "github": "https://github.com/KevinThePirate/React-Guessing-Game",
         "imgSrc": "https://i.imgur.com/rdNyKfg.png"
       },
       {
         "key": "RTDA",
-        "title": "React To-Do App",
-        "desc": "I used this project to teach myself the fundamentals of React.JS, including components, state, routing, etc. Note: the viewable version does not allow for viewing cards due to GitHub Permissions",
-        "view": "https://github.com/KevinThePirate/React-To-Do-App",
-        "github": "https://kevinthepirate.github.io/React-To-Do-App/",
+        "title": "Freelance Video Editing Project",
+        "desc": "I undertook a freelance video editing project for the Craftsdwarf channel, where I had the opportunity to showcase my skills in video and audio editing, as well as create unique animations. With meticulous attention to detail, I seamlessly merged different video clips, ensuring a cohesive and engaging final product. Additionally, I enhanced the audio quality, optimizing it for a more immersive viewing experience. To elevate the visual appeal, I incorporated my own handcrafted animations, adding a touch of creativity and uniqueness to the project. Through this freelance endeavor, I demonstrated my versatility and expertise in video editing, while contributing to the visual and auditory excellence of Craftsdwarf's content.",
+        "view": "https://www.youtube.com/watch?v=FdnyqjX7mMY&list=PLLoswPRUC2mkPEDcwqFgSSgDWa8mrHFyw&index=5",
         "imgSrc": "https://i.imgur.com/8JPpu9N.png"
       }
     ]
@@ -108,35 +106,31 @@
     ],
     "projects": [
       {
-        "key": "MM",
-        "title": "Man",
-        "desc": "Maths Master was an educational maths game developed in vanilla JS based on the popular Pokemon franchise. It has four levels, a high-score system, and multiple player options.",
-        "github": "https://github.com/KevinThePirate/MathsMasters",
-        "view": "https://kevinthepirate.github.io/MathsMasters/",
+        "key": "PW",
+        "title": "2023 Portfolio Website",
+        "desc": "In 2023 I began to develop my portfolio website using React JS and various libraries like Framer Motion and Full Page JS. I initially designed the site's UI as a personal project while working for the Nimbus Research Institute. With a clear vision in mind, I aimed to create a site that showcased my diverse portfolio types. First and foremost, React JS served as the foundation of my website, enabling me to build a highly interactive and responsive user interface. Its component-based architecture facilitated modular development and enhanced code reusability, enabling me to create distinct sections for each portfolio type. To add some flair to my website, I turned to Framer Motion. This animation library allowed me to craft seamless transitions, hover effects, and page-scroll animations. Additionally, I integrated Full Page JS to introduce an intuitive navigation system, enabling users to effortlessly explore various portfolio types. With its smooth scrolling and full-screen sections, Full Page JS elevated the overall user experience. The goal is for this site to exemplify my skills as a Front-End Developer and I feel confident that it has done so.",
+        "view": "https://github.com/KevinThePirate/2023PortfolioSiteNext",
         "imgSrc": "https://i.imgur.com/9NeLiJQ.png"
       },
       {
-        "key": "RWA",
-        "title": "React Weather App",
-        "desc": "Colour changing weather app used to get to grips with the idea of API calls and CSS variables within React",
-        "github": "https://github.com/KevinThePirate/React-Weather-App",
-        "view": "https://kevinthepirate.github.io/React-Weather-App/",
+        "key": "FYMP",
+        "title": "Observo",
+        "desc": "For my final year project in Creative Digital Media, I developed a React application that aimed to explore the correlation between habits and mood. This project served as my thesis for my undergraduate degree and was the most ambitious project I have worked on to date.  Leveraging the power of React, I crafted a user-friendly interface that allowed users to log in and seamlessly track their habits and mood over time. By integrating a Firebase backend, I ensured that user data was securely stored and easily accessible. The application enabled users to input their daily habits and record their mood, and then provided visualizations and analysis to showcase any potential connections between the two. This unique approach to understanding the impact of habits on mood resonated with both users and my academic evaluators. I am proud to share that my project received the highest grade in my graduating class. This recognition not only validated my hard work and dedication but also highlighted the potential of utilizing React and Firebase to develop insightful and impactful applications.",
+        "view": "https://final-year-project-version-b.vercel.app/",
         "imgSrc": "https://i.imgur.com/eAfZAWV.png"
       },
       {
-        "key": "RGG",
-        "title": "React Guessing Game",
-        "desc": "Simple guessing game made in React. The object of the game is to pick a card and try to find it once it has been reshuffled",
-        "view": "https://github.com/KevinThePirate/React-Guessing-Game",
-        "github": "https://github.com/KevinThePirate/React-Guessing-Game",
+        "key": "MM",
+        "title": "Maths Masters",
+        "desc": "In my front-end development classes at CIT, I created an educational game called Maths Masters using Vanilla JS. This game, styled after the Pokemon franchise, aimed to make learning mathematics a fun and engaging experience for kids. Maths Masters featured four levels of increasing difficulty, each presenting a series of math problems to solve. To enhance the user experience, I incorporated animations and visually appealing graphics inspired by the Pokemon world. The game included a leaderboard feature to foster a sense of competition and allow players to compare their scores. I am proud to say that my lecturer graded Maths Masters with an impressive 94%.",
+        "view": "https://kevinthepirate.github.io/MathsMasters/",
         "imgSrc": "https://i.imgur.com/jnRe3bp.png"
       },
       {
         "key": "RTDA",
         "title": "React To-Do App",
-        "desc": "I used this project to teach myself the fundamentals of React.JS, including components, state, routing, etc. Note: the viewable version does not allow for viewing cards due to GitHub Permissions",
+        "desc": "I built a Weather App using React JS that utilizes an API call to retrieve real-time weather data. This app provided users with up-to-date weather information for any location they desired. By leveraging React JS, I created a dynamic and responsive user interface that allowed seamless interaction and data display. The API call enabled the app to fetch weather data, including temperature, humidity, wind speed, and conditions, providing users with accurate and relevant information. This project showcased my ability to integrate external data sources and deliver a functional and user-friendly application that enhanced the user's experience in staying informed about the weather.",
         "view": "https://github.com/KevinThePirate/React-To-Do-App",
-        "github": "https://kevinthepirate.github.io/React-To-Do-App/",
         "imgSrc": "https://i.imgur.com/4T6zdjZ.png"
       }
     ]
