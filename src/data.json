@@ -149,36 +149,32 @@
     ],
     "projects": [
       {
-        "key": "MM",
-        "title": "Maths Masters",
-        "desc": "Maths Master was an educational maths game developed in vanilla JS based on the popular Pokemon franchise. It has four levels, a high-score system, and multiple player options.",
-        "github": "https://github.com/KevinThePirate/MathsMasters",
+        "key": "UCCMM",
+        "title": "Motley Magazine",
+        "desc": "During my time as a Graphic and Print designer for a year of monthly magazine issues, I undertook a challenging role that required me to handle a multitude of responsibilities. As the designer, I was tasked with creating visually captivating layouts and graphics for each issue. Additionally, I played a crucial role in managing the production process, liaising with outside vendors to ensure the timely printing and distribution of the magazine. Being the go-to person for design requests across the campus, I adeptly handled various design projects, accommodating the needs and preferences of different departments. The successful publication of each magazine issue was a testament to my organizational skills, attention to detail, and ability to meet strict deadlines. By effectively balancing design work, communication with stakeholders, and vendor coordination, I contributed to the magazine's success in reaching the UCC campus and Cork City, leaving a lasting impact on readers through compelling visual content. ",
         "view": "https://kevinthepirate.github.io/MathsMasters/",
-        "imgSrc": "https://wallpaperaccess.com/full/1406840.jpg"
+        "imgSrc": "https://cdn.discordapp.com/attachments/471461613178847255/1114959014795681894/gd-01.png"
       },
       {
-        "key": "RWA",
-        "title": "React Weather App",
-        "desc": "Colour changing weather app used to get to grips with the idea of API calls and CSS variables within React",
-        "github": "https://github.com/KevinThePirate/React-Weather-App",
-        "view": "https://kevinthepirate.github.io/React-Weather-App/",
-        "imgSrc": "https://cdn.wallpapersafari.com/15/4/b7xQKh.jpg"
+        "key": "NRC",
+        "title": "Nimbus Research Centre",
+        "desc": "During my time as a UX design intern at the Nimbus Research Centre, I had the opportunity to work on a diverse range of projects and applications for our clients. From day one, I was immersed in a collaborative and innovative environment that encouraged experimentation and learning. I gained hands-on experience in conducting user research, creating wireframes and prototypes, and iterating designs based on user feedback. The supportive team at Nimbus provided invaluable guidance and mentorship, helping me develop my skills and deepen my understanding of user-centered design principles. It was a rewarding and fulfilling experience that solidified my passion for UX design.",
+        "view": "https://www.technologygateway.ie/ux-research-work-placement-at-nimbus/",
+        "imgSrc": "https://i.imgur.com/QqEVowl.png"
       },
       {
-        "key": "RGG",
-        "title": "React Guessing Game",
-        "desc": "Simple guessing game made in React. The object of the game is to pick a card and try to find it once it has been reshuffled",
-        "view": "https://github.com/KevinThePirate/React-Guessing-Game",
-        "github": "https://github.com/KevinThePirate/React-Guessing-Game",
-        "imgSrc": "https://wallpapercave.com/wp/wp2860302.jpg"
+        "key": "DPS",
+        "title": "DePuy Synthes",
+        "desc": "Acted as the sole in-house designer and video producer for the global DePuy Synthes company, under Johnson & Johnson global. This involved Web Design, Graphic Design, Video Editing & Motion Graphic Design for a global audience and writing a comprehensive, 60+ page “Communications Playbook” teaching future team members how to interact with all of our various technical systems. Key roles included being the creative director for the DPS STEM Academy's 'Mission To Mars' Summer Camp. This role involved designing all the assets for the camp, writing, designing, and editing a 4-episode mini-series to go along with the lessons, many of which I helped to plan and facilitate with the children myself",
+        "view": "https://www.youtube.com/watch?v=SndA-nak-YQ",
+        "imgSrc": "https://i.imgur.com/6E388pe.png"
       },
       {
-        "key": "RTDA",
-        "title": "React To-Do App",
-        "desc": "I used this project to teach myself the fundamentals of React.JS, including components, state, routing, etc. Note: the viewable version does not allow for viewing cards due to GitHub Permissions",
-        "view": "https://github.com/KevinThePirate/React-To-Do-App",
-        "github": "https://kevinthepirate.github.io/React-To-Do-App/",
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Aspect-ratio-16x9.svg/1200px-Aspect-ratio-16x9.svg.png"
+        "key": "CIT",
+        "title": "Good Start Ambassador at CIT",
+        "desc": "Brought on as a Good Start Ambassador where my role is to welcome incoming students to CIT and make them feel welcome and ease their worries. While also helping provide design and video editing support for the Good Start team. This role involves a lot of teamwork and collaboration with other ambassadors and the Good Start team. I have also been tasked with creating a series of videos to help incoming students get to know the campus and Cork city. This role has helped me to develop my teamwork and communication skills, as well as my ability to work under pressure and meet deadlines.",
+        "view": "https://www.youtube.com/watch?v=J9frNbNWHqw",
+        "imgSrc": "https://i.imgur.com/WvVY51R.png"
       }
     ]
   }
