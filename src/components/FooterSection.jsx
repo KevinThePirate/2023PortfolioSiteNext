@@ -11,13 +11,13 @@ export default class FooterSection extends Component {
           <div id="link-area">
             <div>
               <h2>Get In Contact!</h2>
-              <a href="#">Email</a>
-              <a href="#">LinkedIn</a>
+              <a  href="mailto:smithkevin1100@gmail.com">Email</a>
+              <a href="https://www.linkedin.com/in/kevinsmith1999/">LinkedIn</a>
             </div>
             <div>
               <h2>More Links</h2>
-              <a href="#">Comic Store</a>
-              <a href="#">GitHub</a>
+              <a href="https://livewirecomics.gumroad.com/">Comic Store</a>
+              <a href="https://github.com/KevinThePirate/">GitHub</a>
             </div>
           </div>
         </div>

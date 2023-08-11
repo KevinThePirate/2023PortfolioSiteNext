@@ -107,9 +107,9 @@ class FullpageWrapper extends React.Component {
               <div className="section" id="section-2">
                 <AboutSection api={this.api} buttonGen={this.buttonGen} />
               </div>
-              <div className="section" id="section-4">
+              {/*<div className="section" id="section-4">
                 {this.buttonGen(fullpageApi)}
-              </div>
+          </div>*/}
               <div className="section" id="section-3">
                 {this.portGen()}
               </div>

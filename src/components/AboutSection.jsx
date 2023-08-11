@@ -15,7 +15,7 @@ export default class AboutSection extends Component {
             <h1>Kevin M. Smith</h1>
             <div id="logo-area">
               <a
-                href="https://drive.google.com/file/d/1R5B3dNofDEHf_mhv2y4GVYW4GwmNdIRx/view?usp=sharing"
+                href="https://docs.google.com/document/d/1JODW-hVF87XpdmPvlXH5i4bIUKatXBfD/edit?usp=sharing&ouid=100974966973156821027&rtpof=true&sd=true"
                 target="_blank"
                 rel="noopener noreferrer">
                 <i className="fa fa-file-pdf-o"></i>
@@ -48,13 +48,7 @@ export default class AboutSection extends Component {
               </a>
             </div>
             <p>
-              I'm an award winning comic writer and designer working in the
-              International industry for the past 6 years, including work as a
-              story editor and magazine head for MyFutprint Entertainment, the
-              largest diversity-based comic publisher. I also have experience in
-              corporate design for DePuy Synthes and J&J, freelance web
-              development, and over 10 years of teaching experience for various
-              different schools and organizations.
+            A first-class honours graduate with 10 years of experience designing, solving problems, and self-motivated learning. Years of experience in web development both for small and large businesses. As a result, familiar with a wide range of technologies and methods. Willing and eager to take on a role that affords the opportunity to use my demonstrated passion for growth, design, and problem-solving. 
             </p>
           </div>
         </div>
@@ -65,7 +59,7 @@ export default class AboutSection extends Component {
           </div>
           <div id="button-area">
             <button onClick={() => this.props.api.moveTo(3)}>
-              View Portfolio Cards
+              View Portfolio
             </button>
           </div>
         </div>
