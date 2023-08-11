@@ -13,6 +13,13 @@
     ],
     "projects": [
       {
+        "key": "MDP",
+        "title": "Master's Dissertation Project",
+        "desc": "For my Master's Dissertation project, I created a productivity web app was created to help users regulate their moods and increase productivity in a flexible working environment. The app collected data on users' tasks, moods, and the times they complete those tasks. This data was used to generate personalized recommendations for improving working habits. 31 participants used the application for two working weeks and after surveying them we found that the app helped them understand their working habits and improve productivity.",
+        "view": "https://github.com/KevinThePirate/digital-artefact-madh",
+        "imgSrc": "https://i.imgur.com/6dZzevd.png"
+      },
+      {
         "key": "PW",
         "title": "2023 Portfolio Website",
         "desc": "In 2023 I began to develop my portfolio website using React JS and various libraries like Framer Motion and Full Page JS. I initially designed the site's UI as a personal project while working for the Nimbus Research Institute. With a clear vision in mind, I aimed to create a site that showcased my diverse portfolio types. First and foremost, React JS served as the foundation of my website, enabling me to build a highly interactive and responsive user interface. Its component-based architecture facilitated modular development and enhanced code reusability, enabling me to create distinct sections for each portfolio type. To add some flair to my website, I turned to Framer Motion. This animation library allowed me to craft seamless transitions, hover effects, and page-scroll animations. Additionally, I integrated Full Page JS to introduce an intuitive navigation system, enabling users to effortlessly explore various portfolio types. With its smooth scrolling and full-screen sections, Full Page JS elevated the overall user experience. The goal is for this site to exemplify my skills as a Front-End Developer and I feel confident that it has done so.",
@@ -32,13 +39,6 @@
         "desc": "In my front-end development classes at CIT, I created an educational game called Maths Masters using Vanilla JS. This game, styled after the Pokemon franchise, aimed to make learning mathematics a fun and engaging experience for kids. Maths Masters featured four levels of increasing difficulty, each presenting a series of math problems to solve. To enhance the user experience, I incorporated animations and visually appealing graphics inspired by the Pokemon world. The game included a leaderboard feature to foster a sense of competition and allow players to compare their scores. I am proud to say that my lecturer graded Maths Masters with an impressive 94%.",
         "view": "https://kevinthepirate.github.io/MathsMasters/",
         "imgSrc": "https://i.imgur.com/jnRe3bp.png"
-      },
-      {
-        "key": "RTDA",
-        "title": "React To-Do App",
-        "desc": "I built a Weather App using React JS that utilizes an API call to retrieve real-time weather data. This app provided users with up-to-date weather information for any location they desired. By leveraging React JS, I created a dynamic and responsive user interface that allowed seamless interaction and data display. The API call enabled the app to fetch weather data, including temperature, humidity, wind speed, and conditions, providing users with accurate and relevant information. This project showcased my ability to integrate external data sources and deliver a functional and user-friendly application that enhanced the user's experience in staying informed about the weather.",
-        "view": "https://github.com/KevinThePirate/React-To-Do-App",
-        "imgSrc": "https://i.imgur.com/4T6zdjZ.png"
       }
     ]
   }
