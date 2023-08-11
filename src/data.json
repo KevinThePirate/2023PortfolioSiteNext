@@ -15,7 +15,7 @@
       {
         "key": "MDP",
         "title": "Master's Dissertation Project",
-        "desc": "For my Master's Dissertation project, I created a productivity web app was created to help users regulate their moods and increase productivity in a flexible working environment. The app collected data on users' tasks, moods, and the times they complete those tasks. This data was used to generate personalized recommendations for improving working habits. 31 participants used the application for two working weeks and after surveying them we found that the app helped them understand their working habits and improve productivity.",
+        "desc": "For my Master's Dissertation project, I created a productivity web app designed to help users regulate their moods and increase productivity in a flexible working environment. The app collected data on users' tasks, moods, and the times they completed those tasks. This data was used to generate personalized recommendations for improving working habits. 31 participants used the application for two working weeks and after surveying them we found that the app helped them understand their working habits and improve productivity.",
         "view": "https://github.com/KevinThePirate/digital-artefact-madh",
         "imgSrc": "https://i.imgur.com/6dZzevd.png"
       },
