@@ -1,5 +1,5 @@
 [
-    {
+  {
     "title": "Web Design",
     "description": "I have been programming for 10 years and teaching classes on the same topic for just as long. My expertise lies within Web Development though I know the fundamentals of Python. I am currently teaching myself React.JS, Node.JS and other associated topics.",
     "skills": [
@@ -12,6 +12,13 @@
       "Command Line"
     ],
     "projects": [
+      {
+        "key": "VS",
+        "title": "Vue and Sass Expense Logger",
+        "desc": "A small expense logger app built using Vue and Sass. This app allows users to add and remove expenses and income and displays the total balance. The app also displays a chart that shows the percentage of income and expenses. The app is fully responsive and works on all devices. It was designed to highlight my skills in Vue and Sass along with my versatility in learning and adapting to new technologies.",
+        "view": "https://vue-income-tracker-mocha.vercel.app/",
+        "imgSrc": "https://i.imgur.com/gDGmRRs.png"
+      },
       {
         "key": "MDP",
         "title": "Master's Dissertation Project",
@@ -32,13 +39,6 @@
         "desc": "For my final year project in Creative Digital Media, I developed a React application that aimed to explore the correlation between habits and mood. This project served as my thesis for my undergraduate degree and was the most ambitious project I have worked on to date.  Leveraging the power of React, I crafted a user-friendly interface that allowed users to log in and seamlessly track their habits and mood over time. By integrating a Firebase backend, I ensured that user data was securely stored and easily accessible. The application enabled users to input their daily habits and record their mood, and then provided visualizations and analysis to showcase any potential connections between the two. This unique approach to understanding the impact of habits on mood resonated with both users and my academic evaluators. I am proud to share that my project received the highest grade in my graduating class. This recognition not only validated my hard work and dedication but also highlighted the potential of utilizing React and Firebase to develop insightful and impactful applications.",
         "view": "https://final-year-project-version-b.vercel.app/",
         "imgSrc": "https://i.imgur.com/eAfZAWV.png"
-      },
-      {
-        "key": "MM",
-        "title": "Maths Masters",
-        "desc": "In my front-end development classes at CIT, I created an educational game called Maths Masters using Vanilla JS. This game, styled after the Pokemon franchise, aimed to make learning mathematics a fun and engaging experience for kids. Maths Masters featured four levels of increasing difficulty, each presenting a series of math problems to solve. To enhance the user experience, I incorporated animations and visually appealing graphics inspired by the Pokemon world. The game included a leaderboard feature to foster a sense of competition and allow players to compare their scores. I am proud to say that my lecturer graded Maths Masters with an impressive 94%.",
-        "view": "https://kevinthepirate.github.io/MathsMasters/",
-        "imgSrc": "https://i.imgur.com/jnRe3bp.png"
       }
     ]
   }
