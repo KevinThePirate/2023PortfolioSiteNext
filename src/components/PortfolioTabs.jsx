@@ -7,7 +7,10 @@ export default function App(props) {
   const elRef = useRef();
 
   return (
-    <div className="portfolio-display" id="">
+    <div
+      className="portfolio-display"
+      onTouchStart={() => props.api.setAllowScrolling(false)}
+      onTouchEnd={() => props.api.setAllowScrolling(true)}>
       <nav>
         <ul>
           {tabs.map((item) => (

@@ -23,6 +23,13 @@ export default function App(props) {
       return;
     } else {
       setSelectedTab(tabs[(tabs.indexOf(selectedTab) - 1) % tabs.length]);
+      const el = document.querySelector(".selected");
+      el.scrollIntoView({
+        behavior: "smooth",
+        inline: "center",
+        block: "nearest",
+        alignToTop: false,
+      });
     }
     const el = document.querySelector(".selected");
     el.scrollIntoView({
@@ -74,10 +81,12 @@ export default function App(props) {
             transition={{ duration: 0.2 }}>
             {selectedTab ? (
               <div>
-                <h4>{selectedTab.label}</h4>
-                <p>
-                  <b>{selectedTab.timeline}</b>
-                </p>
+                <div id="job-title-date-area">
+                  <h4>{selectedTab.label}</h4>
+                  <p>
+                    <b>{selectedTab.timeline}</b>
+                  </p>
+                </div>
                 <p className="job-description">{selectedTab.desc}</p>
               </div>
             ) : (
