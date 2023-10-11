@@ -13,7 +13,7 @@
   --headline: #fffffe;
   --paragraph: #94a1b2;
   --button: #7f5af0;
-  --button-text: #fffffe
+  --button-text: #fffffe;
 
   --stroke: #010101;
   --main: #fffffe;
@@ -683,7 +683,7 @@ li button {
   height: 3px;
   background: var(--tertiary);
 }
-.display-image-container{
+.display-image-container {
   aspect-ratio: 16/8.99;
 }
 .display-image-container,
@@ -732,13 +732,13 @@ i {
   width: 40px;
   height: 40px;
   font-size: 30px;
-  color: var(--button-text)
+  color: var(--button-text);
 }
-#job-tabs h4{
-  color: var(--highlight)
+#job-tabs h4 {
+  color: var(--highlight);
 }
-#job-tabs b{
-  color: var(--tertiary)
+#job-tabs b {
+  color: var(--tertiary);
 }
 #job-tabs nav {
   display: flex;
@@ -819,7 +819,7 @@ i {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     height: 90%;
-}
+  }
   #section-4 .fp-overflow {
     height: 100vh;
     grid-template-columns: 1fr 1fr;
