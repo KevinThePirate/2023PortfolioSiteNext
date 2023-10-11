@@ -20,9 +20,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "npm run build:ssr",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build:ssr": "react-scripts build --no-minimize"
   },
   "eslintConfig": {
     "extends": [
