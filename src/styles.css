@@ -814,13 +814,12 @@ i {
   .container button {
     width: calc(100% / 9);
     padding: 0;
-    font-size: ;
   }
   .dates {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     height: 90%;
-  }
+}
   #section-4 .fp-overflow {
     height: 100vh;
     grid-template-columns: 1fr 1fr;
