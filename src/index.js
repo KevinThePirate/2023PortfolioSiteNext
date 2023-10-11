@@ -11,7 +11,7 @@ import FooterSection from "./components/FooterSection";
 import PortfolioNavBar from "./components/PortfolioNavBar";
 import { motion, AnimateSharedLayout } from "framer-motion";
 
-import { useState } from "react";
+import PortfolioTabs from "./components/PortfolioTabs";
 
 export let topics = [];
 for (let i = 0; i < Data.length; i++) {
@@ -90,7 +90,7 @@ class FullpageWrapper extends React.Component {
   render() {
     return (
       <ReactFullpage
-        sectionsColor={["#d8cec8", "#d8cec8", "#d8cec8", "#d8cec8"]}
+        sectionsColor={["#3d424a", "#3d424a", "#3d424a", "#3d424a"]}
         onLeave={this.onLeave.bind(this)}
         afterLoad={this.afterLoad.bind(this)}
         render={({ state, fullpageApi }) => {
@@ -111,7 +111,7 @@ class FullpageWrapper extends React.Component {
                 {this.buttonGen(fullpageApi)}
           </div>*/}
               <div className="section" id="section-3">
-                {this.portGen()}
+                <PortfolioTabs api={this.api} />
               </div>
               <div className="section" id="section-5">
                 <FooterSection api={this.api} />

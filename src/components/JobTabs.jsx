@@ -1,10 +1,37 @@
 import { useState } from "react";
+import { useMediaQuery } from "@uidotdev/usehooks";
 import { allIngredients as tabs } from "./ingredients";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function App(props) {
+  const isSmallDevice = useMediaQuery("only screen and (max-width : 800px)");
   const [selectedTab, setSelectedTab] = useState(tabs[0]);
-
+  const increment = () => {
+    const newTab = tabs[(tabs.indexOf(selectedTab) + 1) % tabs.length];
+    setSelectedTab(newTab);
+    const el = document.querySelector(".selected");
+    el.scrollIntoView({
+      behavior: "smooth",
+      inline: "center",
+      block: "nearest",
+      alignToTop: false,
+    });
+  };
+  const decrement = () => {
+    if (tabs.indexOf(selectedTab) === 0) {
+      setSelectedTab(tabs[tabs.length - 1]);
+      return;
+    } else {
+      setSelectedTab(tabs[(tabs.indexOf(selectedTab) - 1) % tabs.length]);
+    }
+    const el = document.querySelector(".selected");
+    el.scrollIntoView({
+      behavior: "smooth",
+      inline: "start",
+      block: "nearest",
+      alignToTop: false,
+    });
+  };
   return (
     <div
       className="window"
@@ -12,6 +39,12 @@ export default function App(props) {
       onTouchStart={() => props.api.setAllowScrolling(false)}
       onTouchEnd={() => props.api.setAllowScrolling(true)}>
       <nav>
+        {isSmallDevice && (
+          <a className="job-tabs-button" onClick={() => decrement()}>
+            &#60;
+          </a>
+        )}
+
         <ul>
           {tabs.map((item) => (
             <li
@@ -25,6 +58,11 @@ export default function App(props) {
             </li>
           ))}
         </ul>
+        {isSmallDevice && (
+          <a className="job-tabs-button" onClick={() => increment()}>
+            &#62;
+          </a>
+        )}
       </nav>
       <main>
         <AnimatePresence exitBeforeEnter>

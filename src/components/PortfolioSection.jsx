@@ -2,6 +2,7 @@ import React, { Component, useState } from "react";
 import { motion, AnimateSharedLayout } from "framer-motion";
 import projData from "../data.json";
 import { MdCancel } from "../../node_modules/react-icons/md";
+import port1 from "./portfolioImages/port1.png";
 
 const variants = {
   closed: { marginTop: 0 },
@@ -107,7 +108,7 @@ function DateButton({
             <motion.div
               initial={{ opacity: 0, y: -50 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{duration: 0.5 }}
+              transition={{ duration: 0.5 }}
               className="proj-info">
               <h2>{proj.title}</h2>
               <p>{proj.desc}</p>

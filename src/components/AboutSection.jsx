@@ -48,7 +48,13 @@ export default class AboutSection extends Component {
               </a>
             </div>
             <p>
-            A first-class honours graduate with 10 years of experience designing, solving problems, and self-motivated learning. Years of experience in web development both for small and large businesses. As a result, familiar with a wide range of technologies and methods. Willing and eager to take on a role that affords the opportunity to use my demonstrated passion for growth, design, and problem-solving. 
+              A first-class honours graduate with 10 years of experience
+              designing, solving problems, and self-motivated learning. Years of
+              experience in web development both for small and large businesses.
+              As a result, familiar with a wide range of technologies and
+              methods. Willing and eager to take on a role that affords the
+              opportunity to use my demonstrated passion for growth, design, and
+              problem-solving.
             </p>
           </div>
         </div>
