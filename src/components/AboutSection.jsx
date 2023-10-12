@@ -15,10 +15,10 @@ export default class AboutSection extends Component {
             <h1>Kevin M. Smith</h1>
             <div id="logo-area">
               <a
-                href="https://docs.google.com/document/d/1JODW-hVF87XpdmPvlXH5i4bIUKatXBfD/edit?usp=sharing&ouid=100974966973156821027&rtpof=true&sd=true"
+                href="https://docs.google.com/document/d/1pSz025Dbg9nRkg4lA8aCohJGRCFdSW1M/edit?usp=sharing&ouid=100974966973156821027&rtpof=true&sd=true"
                 target="_blank"
                 rel="noopener noreferrer">
-                <i className="fa fa-file-pdf-o"></i>
+                <i className="fa-regular fa-file"></i>
               </a>
               <a
                 href="https://www.linkedin.com/in/kevinsmith1999/"
@@ -48,12 +48,12 @@ export default class AboutSection extends Component {
               </a>
             </div>
             <p>
-              A first-class honours graduate with 10 years of experience
-              designing, solving problems, and self-motivated learning. Years of
-              experience in web development both for small and large businesses.
-              As a result, familiar with a wide range of technologies and
-              methods. Willing and eager to take on a role that affords the
-              opportunity to use my demonstrated passion for growth, design, and
+              A first-class honours graduate with experience designing, solving
+              problems, and self-motivated learning. Years of experience in web
+              development and design for both small and large businesses. As a
+              result, familiar with a wide range of technologies and methods.
+              Willing and eager to take on a role that affords the opportunity
+              to use my demonstrated passion for growth, design, and
               problem-solving.
             </p>
           </div>

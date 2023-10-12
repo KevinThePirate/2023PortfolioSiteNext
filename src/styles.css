@@ -728,6 +728,7 @@ li button {
 .portfolio-display i {
   font-size: 25px;
   color: var(--button);
+  margin-right: 10px;
 }
 .portfolio-display i:hover {
   color: var(--tertiary);
@@ -962,4 +963,10 @@ i {
 }
 .fp-watermark {
   display: none !important;
+}
+#overlay-button-area {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
 }

@@ -59,7 +59,7 @@ export default class TitleSection extends Component {
           }
           transition={{ delay: 3.25, duration: 0.5 }}>
           <h1>Kevin M. Smith</h1>
-          <h4>Web Dev, Design and Video & Comic Production</h4>
+          <h4>Front End Web Development & Comic Production</h4>
         </motion.div>
       </div>
     );

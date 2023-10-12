@@ -59,12 +59,38 @@ export default function App(props) {
               <div>
                 <h4>{selectedTab.title}</h4>
                 <p className="job-description">{selectedTab.desc}</p>
-                <a
-                  href={selectedTab.view}
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  <i className="fa fa-github"></i>
-                </a>
+                {selectedTab.view && (
+                  <a
+                    href={selectedTab.view}
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <i className="fa fa-up-right-from-square"></i>
+                  </a>
+                )}
+                {selectedTab.github && (
+                  <a
+                    href={selectedTab.github}
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <i className="fa fa-github"></i>
+                  </a>
+                )}
+                {selectedTab.figma && (
+                  <a
+                    href={selectedTab.figma}
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <i className="fa-brands fa-figma"></i>
+                  </a>
+                )}
+                {selectedTab.doc && (
+                  <a
+                    href={selectedTab.doc}
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <i className="fa-solid fa-book"></i>
+                  </a>
+                )}
               </div>
             ) : (
               "😋"

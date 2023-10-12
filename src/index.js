@@ -12,6 +12,7 @@ import PortfolioNavBar from "./components/PortfolioNavBar";
 import { motion, AnimateSharedLayout } from "framer-motion";
 
 import PortfolioTabs from "./components/PortfolioTabs";
+import ButtonArea from "./components/ButtonArea";
 
 export let topics = [];
 for (let i = 0; i < Data.length; i++) {
