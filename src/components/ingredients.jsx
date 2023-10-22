@@ -31,7 +31,7 @@ export const allIngredients = [
   },
   {
     label: "MyFutprint Entertainment, LLC",
-    timeline: "Jun ‘22 – Aug ‘22",
+    timeline: "Jun ‘19 – Oct ‘21",
     desc: "I was an editor and designer for MyFutprint Entertainment, an American-based comic publisher. I took on various roles while at the company but most notably for this role was my stint as the head of the Fanart Friday digital magazine where I was in charge of the content, display and everything involved along with liaising with the other designers involved with the company. I also worked on a lot of the published comics while there, working on some of the publisher's bigger titles which are now published in stores such as Wallmart and Barnes & Noble across the US.",
   },
   {

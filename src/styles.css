@@ -230,9 +230,9 @@ table td {
 .project-links a {
   color: black;
 }
-img {
+/*img {
   transition: opacity 1s;
-}
+}*/
 
 .dates {
   height: 100%;
@@ -395,9 +395,9 @@ img {
   display: block;
   clear: both;
 }
-.job-description {
+/*.job-description {
   overflow: scroll;
-}
+}/*
 /* Style the tab */
 .tab {
   float: left;
@@ -501,7 +501,7 @@ nav {
   border-radius: 10px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
-  overflow: scroll;
+  /*overflow: scroll;*/
 }
 
 .tabs {
@@ -660,7 +660,7 @@ li button {
 }
 .portfolio-display nav {
   overflow-y: hidden;
-  overflow-x: scroll;
+  /*overflow-x: scroll;*/
   cursor: grab;
   height: 100px;
 }
@@ -713,7 +713,7 @@ li button {
   box-shadow: -5px -5px 8px rgba(0, 0, 0, 0.2),
     10px 10px 8px rgba(0, 0, 0, 0.19);
   font-size: 14px;
-  overflow: scroll;
+  overflow-y: auto;
 }
 .portfolio-display main h4 {
   color: var(--highlight);
@@ -862,7 +862,7 @@ i {
   }
   #job-tabs nav {
     overflow-y: hidden;
-    overflow-x: scroll;
+    /*overflow-x: scroll;*/
     cursor: grab;
     width: 100%;
   }
@@ -878,7 +878,7 @@ i {
   #job-tabs main {
     width: 100%;
     height: 100%;
-    overflow: scroll;
+    /*overflow: scroll;*/
   }
   .underline {
     position: absolute;

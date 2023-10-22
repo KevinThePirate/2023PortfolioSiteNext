@@ -46,11 +46,11 @@ export default function App(props) {
       onTouchStart={() => props.api.setAllowScrolling(false)}
       onTouchEnd={() => props.api.setAllowScrolling(true)}>
       <nav>
-        {isSmallDevice && (
+        {/*isSmallDevice && (
           <a className="job-tabs-button" onClick={() => decrement()}>
             &#60;
           </a>
-        )}
+        )*/}
 
         <ul>
           {tabs.map((item) => (
