@@ -3,8 +3,19 @@ export const jobData = [
     key: "MDP",
     title: "Irish Bee Conservation Project",
     desc: "During the summer of 2023, I was brought in to redesign and redevelop the web presence for the Irish Bee Conservation project. Their current site was resulting in unfavourable User Experience outcomes and as a result, customers were not being driven to their store and donation system as much as they would like. My job was to come in and understand the company's problems, propose a technology based solution and implement that solution. I worked closely with the company's founder to understand the company's goals and vision. I then created a new website using their existing WordPress site as a base. The site was designed to be highly interactive and engaging, with a focus on driving customers to the store and donation system. The site is currently in development and will be released in the coming months.",
+    view: "http://ibcp.ie/",
     imgSrc: require("./portfolioImages/port5.png"),
     thumb: require("./portfolioImages/ibcp.webp"),
+  },
+  {
+    key: "SQLBlog",
+    title: "Full Stack Blog with SQL",
+    desc: "During the summer of 2023, I was brought in to redesign and redevelop the web presence for the Irish Bee Conservation project. Their current site was resulting in unfavourable User Experience outcomes and as a result, customers were not being driven to their store and donation system as much as they would like. My job was to come in and understand the company's problems, propose a technology based solution and implement that solution. I worked closely with the company's founder to understand the company's goals and vision. I then created a new website using their existing WordPress site as a base. The site was designed to be highly interactive and engaging, with a focus on driving customers to the store and donation system. The site is currently in development and will be released in the coming months.",
+    view: "http://ibcp.ie/",
+    imgSrc: require("./portfolioImages/port5.png"),
+    video: "https://www.youtube.com/embed/GYMN7THgMqU?si=-D1qKs3fymPuOzot",
+    github: "https://github.com/KevinThePirate/Full-Stack-Blog-Web-App",
+    thumb: require("./portfolioImages/sql-thumb.png"),
   },
   {
     key: "MDP",
@@ -32,6 +43,7 @@ export const jobData = [
     desc: "For my final year project in Creative Digital Media, I developed a React application that aimed to explore the correlation between habits and mood. This project served as my thesis for my undergraduate degree and was the most ambitious project I have worked on to date.  Leveraging the power of React, I crafted a user-friendly interface that allowed users to log in and seamlessly track their habits and mood over time. By integrating a Firebase backend, I ensured that user data was securely stored and easily accessible. The application enabled users to input their daily habits and record their mood, and then provided visualizations and analysis to showcase any potential connections between the two. This unique approach to understanding the impact of habits on mood resonated with both users and my academic evaluators. ",
     view: "https://final-year-project-version-b.vercel.app/",
     github: "https://github.com/KevinThePirate/Final-Year-Project-Version-B",
+    video: "https://www.youtube.com/embed/ApLa5r7-o3E?si=o1tGsPtN3D-r0rLH",
     figma:
       "https://www.figma.com/file/pegPaFApIKhJWfFD2H7cNh/Digital-Overlay-Prototype?type=design&node-id=0%3A1&mode=design&t=qIO3OhmZjP0PDikp-1",
     doc: "https://drive.google.com/file/d/1Vogk1cvB8PAIdQI9wWByRsZ75xfGvA12/view?usp=drive_link",

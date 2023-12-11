@@ -29,17 +29,17 @@ export default function App(props) {
       </nav>
       <div className="display-image-container">
         <AnimatePresence exitBeforeEnter>
-          {
-            <motion.img
-              key={selectedTab ? selectedTab.title : "empty"}
-              src={selectedTab.imgSrc}
-              layoutId="display-image"
-              className="display-image"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.3 }}
-              exit={{ opacity: 0 }}
-            />
+          {selectedTab.video ? (<iframe width="100%" height="100%" src={selectedTab.video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>) : (<motion.img
+            key={selectedTab ? selectedTab.title : "empty"}
+            src={selectedTab.imgSrc}
+            layoutId="display-image"
+            className="display-image"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.3 }}
+            exit={{ opacity: 0 }}
+          />)
+
           }
         </AnimatePresence>
       </div>

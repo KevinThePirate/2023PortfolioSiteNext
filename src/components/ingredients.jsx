@@ -1,7 +1,7 @@
 export const allIngredients = [
   {
     label: "IBCP",
-    timeline: "Jun '23 - Aug '23",
+    timeline: "Jun '23 - Dec '23",
     desc: "Brought on to redesign and revamp the website for the Irish Bee Conversation Project. This involves me redesigning their Wordpress site, as well as implementing a new design and adding new features such as interactive elements and a new donation system.",
   },
   {
