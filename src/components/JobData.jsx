@@ -10,7 +10,7 @@ export const jobData = [
   {
     key: "SQLBlog",
     title: "Full Stack Blog with SQL",
-    desc: "During the summer of 2023, I was brought in to redesign and redevelop the web presence for the Irish Bee Conservation project. Their current site was resulting in unfavourable User Experience outcomes and as a result, customers were not being driven to their store and donation system as much as they would like. My job was to come in and understand the company's problems, propose a technology based solution and implement that solution. I worked closely with the company's founder to understand the company's goals and vision. I then created a new website using their existing WordPress site as a base. The site was designed to be highly interactive and engaging, with a focus on driving customers to the store and donation system. The site is currently in development and will be released in the coming months.",
+    desc: "Recently, I created a full-stack blog application, utilizing React, Express, and SQL/MySQL. This project aimed to enhance my SQL skills, laying a solid foundation for bigger and better projects in the future. The application's structure entailed a robust backend implemented with Express, handling server-side logic and data manipulation. React, on the other hand, managed the frontend, rendering  UI components and seamlessly interacting with the backend API. Incorporating MySQL as the database provided a stable platform to store and retrieve blog posts, ensuring data integrity. Feel free to view the code below or a video showing the functionality. ",
     view: "http://ibcp.ie/",
     imgSrc: require("./portfolioImages/port5.png"),
     video: "https://www.youtube.com/embed/GYMN7THgMqU?si=-D1qKs3fymPuOzot",
