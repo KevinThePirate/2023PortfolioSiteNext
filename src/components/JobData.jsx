@@ -8,6 +8,13 @@ export const jobData = [
     thumb: require("./portfolioImages/ibcp.webp"),
   },
   {
+    key: "PHP",
+    title: "PHP/MySQL + Vanilla JS Chat App",
+    desc: "Simple chat application built using PHP, MySQL, and Vanilla JS. This project aimed to enhance my PHP and MySQL skills, laying a solid foundation for bigger and better projects in the future. The application's structure entailed a robust backend implemented with PHP, handling server-side logic and data manipulation. Vanilla JS, on the other hand, managed the frontend, rendering  UI components and seamlessly interacting with the backend API. Incorporating MySQL as the database provided a stable platform to store and retrieve chat messages, ensuring data integrity.",
+    thumb: require("./portfolioImages/php-thumb.png"),
+    video: "https://www.youtube.com/embed/dPgrmIpMd4o?si=p_lbkbwtScc8pegX",
+  },
+  {
     key: "SQLBlog",
     title: "Full Stack Blog with SQL",
     desc: "Recently, I created a full-stack blog application, utilizing React, Express, and SQL/MySQL. This project aimed to enhance my SQL skills, laying a solid foundation for bigger and better projects in the future. The application's structure entailed a robust backend implemented with Express, handling server-side logic and data manipulation. React, on the other hand, managed the frontend, rendering  UI components and seamlessly interacting with the backend API. Incorporating MySQL as the database provided a stable platform to store and retrieve blog posts, ensuring data integrity. Feel free to view the code below or a video showing the functionality. ",
@@ -49,23 +56,5 @@ export const jobData = [
     doc: "https://drive.google.com/file/d/1Vogk1cvB8PAIdQI9wWByRsZ75xfGvA12/view?usp=drive_link",
     imgSrc: require("./portfolioImages/port1.png"),
     thumb: require("./portfolioImages/observo-guy.png"),
-  },
-  {
-    key: "VS",
-    title: "Vue and Sass Expense Logger",
-    desc: "A small expense logger app built using Vue and Sass. This app allows users to add and remove expenses and income and displays the total balance. The app also displays a chart that shows the percentage of income and expenses. The app is fully responsive and works on all devices. It was designed to highlight my skills in Vue and Sass along with my versatility in learning and adapting to new technologies.",
-    view: "https://vue-income-tracker-mocha.vercel.app/",
-    github: "https://github.com/KevinThePirate/vue-income-tracker",
-    imgSrc: require("./portfolioImages/port4.png"),
-    thumb: require("./portfolioImages/vue-logo.png"),
-  },
-  {
-    key: "MM",
-    title: "Math Masters",
-    desc: "Maths Master was a project I created for my Interactive Scripting module in my 2nd Year of college. It's an educational maths game developed in vanilla JS based on the popular Pokemon franchise. It has four levels, a high-score system, and multiple player options. It received a grade of 94% and was one of my first projects that I was really proud of, ultimately being the project that brought me back and got me invested in programming after a number of years away from it.",
-    imgSrc: require("./portfolioImages/port6.png"),
-    thumb: require("./portfolioImages/pokemon-logo.png"),
-    view: "https://kevinthepirate.github.io/MathsMasters/",
-    github: "https://github.com/KevinThePirate/MathsMasters",
   },
 ];
