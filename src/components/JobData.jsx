@@ -2,7 +2,7 @@ export const jobData = [
   {
     key: "MDP",
     title: "Irish Bee Conservation Project",
-    desc: "During the summer of 2023, I was brought in to redesign and redevelop the web presence for the Irish Bee Conservation project. Their current site was resulting in unfavourable User Experience outcomes and as a result, customers were not being driven to their store and donation system as much as they would like. My job was to come in and understand the company's problems, propose a technology based solution and implement that solution. I worked closely with the company's founder to understand the company's goals and vision. I then created a new website using their existing WordPress site as a base. The site was designed to be highly interactive and engaging, with a focus on driving customers to the store and donation system. The site is currently in development and will be released in the coming months.",
+    desc: "During the summer of 2023, I was brought in to redesign and redevelop the web presence for the Irish Bee Conservation project. Their current site was resulting in unfavourable User Experience outcomes and as a result, customers were not being driven to their store and donation system as much as they would like. My job was to come in and understand the company's problems, propose a technology based solution and implement that solution. I worked closely with the company's founder to understand the company's goals and vision. I then created a new website using their existing WordPress site as a base. The site was designed to be highly interactive and engaging, with a focus on driving customers to the store and donation system. The site is currently in being worked on by external backend developers but a low-bandwidth version is available below.",
     view: "http://ibcp.ie/",
     imgSrc: require("./portfolioImages/port5.png"),
     thumb: require("./portfolioImages/ibcp.webp"),
@@ -13,6 +13,7 @@ export const jobData = [
     desc: "Simple chat application built using PHP, MySQL, and Vanilla JS. This project aimed to enhance my PHP and MySQL skills, laying a solid foundation for bigger and better projects in the future. The application's structure entailed a robust backend implemented with PHP, handling server-side logic and data manipulation. Vanilla JS, on the other hand, managed the frontend, rendering  UI components and seamlessly interacting with the backend API. Incorporating MySQL as the database provided a stable platform to store and retrieve chat messages, ensuring data integrity.",
     thumb: require("./portfolioImages/php-thumb.png"),
     video: "https://www.youtube.com/embed/dPgrmIpMd4o?si=p_lbkbwtScc8pegX",
+    github: "https://github.com/KevinThePirate/PHP-MySQL-Chat-Application/tree/master",
   },
   {
     key: "SQLBlog",
